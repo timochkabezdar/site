@@ -63,7 +63,28 @@ a{
     border-radius: 4px;
 }
 
-    </style>
+.social-login {
+    margin-top: 20px;
+}
+
+.social-button {
+    background-color: #3b5998; /* Facebook */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.social-button.google {
+    background-color: #db4437; /* Google */
+}
+
+.social-button.twitter {
+    background-color: #1da1f2; /* Twitter */
+}
+</style>
 </head>
 <body>
     <header>
@@ -82,6 +103,12 @@ a{
     <footer>
         <button class="my-button">Подписаться на новости</button>
         <p>Свяжитесь со мной: schagimardanov.timur@yandex.ru</p>
+        <div class="social-login">
+        <h2>Вход через социальные сети</h2>
+        <button class="social-button facebook">Войти через Facebook</button>
+        <button class="social-button google">Войти через Google</button>
+        <button class="social-button twitter">Войти через Twitter</button>
+        </div>
     </footer>
 </body>
 </html>
